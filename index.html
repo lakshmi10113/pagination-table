@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<h1 id="title">Users Details</h1>
+<p id="description">Pagination list with 100 users data</p>
+<div class="table-responsive"></div>
+    <div id="result">
+      <table id="table" class="table">
+        <thead>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+
+        </thead>
+        <tbody id="tbody">
+         
+        </tbody>
+      </table>
+      <div id="buttons" class="d-flex justify-content-center">
+        <button onclick="changePage('prev')" id="prev">PREV</button>
+        <button onclick="changePage('next')" id="next">NEXT</button>
+ 
+      </div>
+      
+     
+    </div>
+  
+</body>
+</html>
